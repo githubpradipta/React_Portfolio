@@ -1,0 +1,40 @@
+.nav-bar{
+    background-color: #181818;
+    width: 70px;
+    height: 100%;
+    min-height: 500px;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 8px 0px;
+}
+.logo img{
+    display: block;
+    width:50px;
+    margin: 8px auto;
+    padding: 0px 3px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+a{
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+    transition: all 0.2s ease;
+}
+a:hover{
+    color:rgb(216, 209, 0)
+}
+.material-symbols-outlined{
+    font-size: 30px;
+    font-weight: bold;
+}
