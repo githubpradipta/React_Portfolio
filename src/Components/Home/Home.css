@@ -6,6 +6,7 @@
         flex-direction: column-reverse;
         justify-content: center !important;
         align-items: end !important;
+        max-width: 100%;
     }
     .home_page .image{
         margin-left: 0px !important;
@@ -41,6 +42,7 @@
         flex-direction: column-reverse;
         justify-content: center !important;
         align-items: end !important;
+        max-width: 100%;
     }
     
     .home_page .image img{

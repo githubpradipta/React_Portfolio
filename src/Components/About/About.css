@@ -1,0 +1,171 @@
+@media (min-width: 992px) { 
+    .container1{
+        flex-direction: column-reverse;
+        justify-content: center !important;
+        align-items: end !important;
+        max-width: 100%;
+    }
+
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+
+.container1{
+    width: 100%;
+    height: 100%;
+    min-height: 564px;
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgtext{
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.bgtext h1{
+    font-size: 250px;
+    color: rgba(0, 20, 39, 0.217);
+    font-family: 'Coolvetica';
+    z-index: 1;
+}
+.social{
+    position: absolute;
+    top: 55%;
+    left: 24%;
+    transform: translateX(-50%);
+}
+.social h1{
+    font-size: 60px;
+    font-weight: 500;
+    color: rgba(0, 20, 39, 0.217);
+    font-family: 'Coolvetica';
+}
+.about-Skills{
+    position: absolute;
+    top: 9%;
+    right: 2%;
+}
+.about-Skills h1{
+    font-size: 70px;
+    font-weight: 600;
+    color: rgba(0, 20, 39, 0.217);
+    font-family: 'Coolvetica';
+    z-index: 1;
+}
+.text_field{
+    width: 550px;
+    padding-right: 40px;
+    z-index: 3;
+}
+.text_field h1{
+    font-size: 70px;
+    font-family: 'Coolvetica';
+    color: #fff;
+}
+
+.text_field h1 span{
+    color: rgb(221, 221, 0);
+}
+.text_field p{
+    font-size: 15px;
+    color: rgb(156, 157, 158);
+    font-family: 'Helvetica';
+    letter-spacing: 2px;
+}
+.text_field p span{
+    font-size: 25px;
+    font-family: 'La Belle Aurore';
+    letter-spacing: 0px;
+    color: rgb(221, 221, 0);
+}
+
+
+
+.innerContainer .image{
+    z-index: 3;
+}
+.innerContainer .image img{
+    width: 300px;
+    margin-left: 60px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.596);
+    transition: all 0.3s ease;
+    z-index: 3;
+}
+.innerContainer .image img:hover{
+    transform: scale(110%);
+}
+
+.links{
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    z-index: 3;
+}
+.links a{
+    margin: 0;
+    margin: 10px 0px 0px 0px;
+}
+.links a p{
+    padding-top: 3px;
+    color: rgb(221, 221, 0);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.links .icon:hover+p{
+    opacity: 1;
+}
+.links .icon{
+    color: #fff;
+    font-size: 30px;
+    transition: all 0.4s ease;
+}
+.links .icon:hover{
+    color: rgb(221, 221, 0);
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.links .linkedinicon{
+    margin-left: 5px;
+}
+.bio{
+    position: absolute;
+    top: 25%;
+    right: 2%;
+    z-index: 1;
+}
+.bio .skill p{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 35px;
+    color: rgba(0, 26, 53, 0.642);
+    font-family: 'Coolvetica';
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.innerContainer .image img:hover+.bio .skill p{
+    opacity: 1;
+}
+
