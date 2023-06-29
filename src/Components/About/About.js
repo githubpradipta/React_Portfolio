@@ -7,6 +7,16 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 
 export default function About() {
+    let skills=[
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "SQL",
+        "MongoDB",
+        "Git Bash",
+        "Rest APIs",
+    ]
+
     return (
         <div className='container1'>
             <div className="innerContainer">
@@ -14,7 +24,7 @@ export default function About() {
                     <h1>About</h1>
                 </div>
                 <div className="social">
-                    <h1>Connect with Me</h1>
+                    <h1>CONNECT WITH ME</h1>
                 </div>
                 <div className="about-Skills">
                     <h1>SKILLs</h1>
@@ -43,16 +53,20 @@ export default function About() {
                 <div className="image">
                     <img src={aboutImage} alt="" srcset="" />
                     <div className="bio">
-                        <div className="react skill">
-                            <p>React.js</p>
-                        </div>
-                        <div className="Node.js skill">
-                            <p>Node.js</p>
-                        </div>
-                        <div className="SQL skill">
-                            <p>SQL</p>
-                        </div>
+                        <ul>
+                            {
+                                skills.map((skill)=>{
+                                    return(
+                                        <li className="skill">
+                                    <p>{skill}</p>
+                                    </li>
+                                    )
+                                })
+                            }
+                        </ul>
                     </div>
+                    <div className="instruction_text"><p>Hover on the picture</p></div>
+
                 </div>
 
             </div>

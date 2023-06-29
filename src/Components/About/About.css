@@ -48,7 +48,7 @@
 .social{
     position: absolute;
     top: 55%;
-    left: 24%;
+    left: 26%;
     transform: translateX(-50%);
 }
 .social h1{
@@ -65,7 +65,7 @@
 .about-Skills h1{
     font-size: 70px;
     font-weight: 600;
-    color: rgba(0, 20, 39, 0.217);
+    color: rgba(0, 20, 39, 0.388);
     font-family: 'Coolvetica';
     z-index: 1;
 }
@@ -95,24 +95,33 @@
     letter-spacing: 0px;
     color: rgb(221, 221, 0);
 }
-
-
-
 .innerContainer .image{
     z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .innerContainer .image img{
     width: 300px;
     margin-left: 60px;
+    margin-top: 80px;
     border-radius: 10px;
+    opacity: 1;
     box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.596);
     transition: all 0.3s ease;
-    z-index: 3;
 }
 .innerContainer .image img:hover{
-    transform: scale(110%);
+    transform: translateX(-30px);
+    opacity: 0.5;
 }
-
+.image .instruction_text{
+    font-size: 25px;
+    color: #ffffff7b;
+    font-family: 'Coolvetica';
+    margin-top: 40px;
+    margin-left: 60px;
+}
 .links{
     margin-top: 30px;
     display: flex;
@@ -149,23 +158,26 @@
 .links .linkedinicon{
     margin-left: 5px;
 }
+.links .linkedinicon+p{
+    margin-left: 5px;
+}
 .bio{
     position: absolute;
     top: 25%;
-    right: 2%;
-    z-index: 1;
+    right: 4%;
 }
-.bio .skill p{
+.bio .skill {
     font-size: 30px;
     font-weight: 600;
     letter-spacing: 2px;
     line-height: 35px;
-    color: rgba(0, 26, 53, 0.642);
+    color: rgba(255, 255, 255, 0.642);
     font-family: 'Coolvetica';
     opacity: 0;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
-.innerContainer .image img:hover+.bio .skill p{
+.innerContainer .image img:hover+.bio .skill{
     opacity: 1;
+    transform: translateX(20px);
 }
 
