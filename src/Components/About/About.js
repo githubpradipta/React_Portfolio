@@ -36,16 +36,16 @@ export default function About() {
                     <h1>About <span>Me</span></h1>
                     <p><span>I'm Pradipta </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae consequuntur similique porro est eaque, totam, sint ab, nobis eos unde enim. Culpa, excepturi.</p>
                     <div className="links">
-                        <Link to='/' className='link'>
+                        <Link to='https://github.com/githubpradipta' className='link' target='_blank'>
                             <GitHubIcon className='githubicon icon' />
                             <p>GitHub</p>
                         </Link>
-                        <Link to='/' className='link'>
+                        <Link to='https://www.linkedin.com/in/pradipta-banerjee-60910421b/' className='link' target='_blank'>
                             <LinkedInIcon className='linkedinicon icon' />
                             <p>Linkedin</p>
                         </Link>
                         <Link to='/' className='link'>
-                            <FacebookIcon className='facebookicon icon' />
+                            <FacebookIcon className='facebookicon icon' target='_blank'/>
                             <p>Facebook</p>
                         </Link>
                     </div>
@@ -55,9 +55,9 @@ export default function About() {
                     <div className="bio">
                         <ul>
                             {
-                                skills.map((skill)=>{
+                                skills.map((skill,i)=>{
                                     return(
-                                        <li className="skill">
+                                        <li className="skill" key={i}>
                                     <p>{skill}</p>
                                     </li>
                                     )

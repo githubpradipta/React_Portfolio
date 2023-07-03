@@ -1,4 +1,4 @@
-@media (576px <= width <= 787px) {
+@media (576px <= width <= 767px) {
     .container{
         max-width: 100%;
         flex-direction: column-reverse;
@@ -32,6 +32,13 @@
     }
     .text_area .right .contact-div{
         margin-top: 20px;
+    }
+    .home_page .bgtext h1{
+        font-size: 120px !important;
+    }
+    .home_page .bgtext{
+        top: 50% !important;
+        transform: translateX(-40%) !important;
     }
   }
 
@@ -69,8 +76,25 @@
     .text_area h2 .skills{
         display: block;
     }
+    .home_page .bgtext h1{
+        font-size: 140px !important;
+    }
+    .home_page .bgtext{
+        top: 50% !important;
+        transform: translateX(-40%) !important;
+    }
     .text_area .right .contact-div .contact-btn:hover{
-        padding: 12px 64px;
+        padding: 7px 35px;
+    }
+    .contact-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-div .contact-btn{
+        margin-bottom: 10px;
+        text-align: center;
+        padding: 7px 35px;
+      
     }
   }
 
@@ -124,6 +148,7 @@
     font-family: 'Coolvetica';
     line-height: 32px;
     margin-left: 120px;
+    z-index: 2;
 }
 .text_area span{
     font-size: 30px;
@@ -163,7 +188,8 @@
     border: 2px solid yellow;
     padding: 12px 35px;
     font-size: 12px;
-    margin: 0px;
+    margin:0;
+    margin-right: 10px;
     transition: all 0.2s ease-in-out;
 }
 .contact-btn:hover{
@@ -183,11 +209,13 @@
 .home_page .image{
     margin-left: 40px;
     margin-right: 60px;
+    z-index: 2;
 }
 .home_page .image img{
     width: 300px;
     border-radius: 10px;
     transition: all 0.2s ease;
+    box-shadow: 7px 8px 40px rgba(0, 0, 0, 0.505);
 }
 .home_page .image img:hover{
     box-shadow: 7px 7px 100px -5px rgba(188, 188, 188, 0.459);
@@ -213,5 +241,17 @@
 }
 .home_page .image .overlay:hover{
     opacity: 100%;
+}
+.home_page .bgtext{
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-45%);
+}
+.home_page .bgtext h1{
+    font-size: 230px;
+    color: rgba(0, 20, 39, 0.217);
+    font-family: 'Coolvetica';
+    z-index: 1;
 }
 

@@ -1,0 +1,107 @@
+.project_container{
+    width: 100%;
+    height: 100%;
+    min-height: 564px;
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.project_container .bgtext{
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-45%);
+}
+.project_container .bgtext h1{
+    font-size: 250px;
+    color: rgba(0, 20, 39, 0.217);
+    font-family: 'Coolvetica';
+    z-index: 1;
+}
+.heading{
+    font-size: 70px;
+    font-family:'Coolvetica';
+    font-weight: 500;
+    color: #fff;
+    margin-top: 25px;
+    margin-left: 50px;
+    z-index: 2;
+}
+.heading span{
+    color: rgb(221, 221, 0);
+}
+.projectwrapper{
+    width: 100%;
+    height: 100%;
+    margin-left: 144px;
+    margin-top: 40px;
+    z-index: 2;
+    display: grid;
+    gap: 10px 40px;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    transform: translateX(-3%);
+}
+/* .projectwrapper .project{
+   overflow: hidden;
+} */
+.projectwrapper a{
+    margin: 0;
+}
+.projectwrapper .projectlink{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.projectwrapper .projectlink:hover{
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.646);
+}
+.projectwrapper .projectlink:hover>img{
+    transform: scale(109%);
+}
+.projectwrapper .projectlink img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .3s ease-in-out;
+}
+.projectwrapper .projectlink .overlay:hover{
+    opacity: 1;
+}
+.projectlink .overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.685);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.projectlink .overlay .title{
+    font-size: 30px;
+    color: #fff;
+    font-family:'Coolvetica';
+    padding-bottom: 20px;
+}
+.projectlink .overlay .description{
+    color: #fff;
+    font-size: 13px;
+    font-family:'Segoe UI', Tahoma,Verdana, sans-serif;
+    font-weight: 400;
+    padding: 5px 30px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    
+}

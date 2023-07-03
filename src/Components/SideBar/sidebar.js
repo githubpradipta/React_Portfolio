@@ -6,7 +6,7 @@ export default function SideBar() {
   return (
     <div className='nav-bar'>
       <Link className='logo' to='/'>
-        <img src={mainLogo} alt="Logo" srcset="" />
+        <img src={mainLogo} alt="Logo" srcSet="" />
       </Link>
       <nav>
         <NavLink exact="true" activeclassName="active" to='/'>

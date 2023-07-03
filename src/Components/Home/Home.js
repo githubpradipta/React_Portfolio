@@ -5,6 +5,7 @@ import heroImage from '../../assets/images/pro.JPG'
 export default function Home() {
     return (
         <div className='container home_page'>
+            <div className="bgtext"><h1>PRADIPTA</h1></div>
             <div className="text_area">
                 <div className="left">
                 <h1>Hello, <br /> <span>I'm</span> Pradipta Banerjee <br />Web Developer</h1>
@@ -18,12 +19,13 @@ export default function Home() {
                 
                 <div className="contact-div">
                 <Link to='/contact' className='contact-btn' >CONTACT ME</Link>
+                <Link to='/projects' className='contact-btn' >SEE MY PROJECTS</Link>
 
                 </div>
                 </div>
             </div>
             <div className="image">
-                <img src={heroImage} alt="Profile" srcset="" />
+                <img src={heroImage} alt="Profile"/>
                 {/* <div className="overlay"><p>Web developer</p></div> */}
                 
             </div>
