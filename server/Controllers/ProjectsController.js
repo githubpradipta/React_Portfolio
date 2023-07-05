@@ -4,6 +4,9 @@ const projectModel=require("../Model/Projectmodel")
 // Returns all the porject records
 const getAllProjects = async(req,res)=>{
     const projectRecords = await projectModel.find();
+    if(projectRecords.length==0) 
+    res.json({message:"No projects are there"})
+    else
     res.json(projectRecords);
 }
 
@@ -16,9 +19,16 @@ const getProjectsByName = async(req,res)=>{
 
 // For creating one project record
 const creatProject = async(req,res)=>{
-    const record = await projectModel.create(req.body);
+    await projectModel.create(req.body);
     res.json({
         message:"Project seccessfully created"
+    });
+}
+
+const deleteAllProjets = async(req,res)=>{
+    await projectModel.deleteMany();
+    res.json({
+        message:"Seccessfully deleted all projects"
     });
 }
 
@@ -26,4 +36,5 @@ module.exports={
     getAllProjects,
     creatProject,
     getProjectsByName,
+    deleteAllProjets,
 }

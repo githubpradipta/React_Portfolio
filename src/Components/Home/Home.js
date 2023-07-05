@@ -19,7 +19,7 @@ export default function Home() {
                 
                 <div className="contact-div">
                 <Link to='/contact' className='contact-btn' >CONTACT ME</Link>
-                <Link to='/projects' className='contact-btn' >SEE MY PROJECTS</Link>
+                <Link to='/projects' className='contact-btn filled' >SEE MY PROJECTS</Link>
 
                 </div>
                 </div>
