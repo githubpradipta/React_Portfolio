@@ -1,6 +1,96 @@
 :root{
     --themeYellow:rgb(222, 222, 0);
 }
+@media (315px <= width <= 767px){
+    .projectTitle{
+        margin: 0 !important;
+        margin-top: 70px !important;
+    }
+    .projectbgtext{
+        transform: translateX(-50%) !important;
+    }
+    .projectWrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .projectWrapper a{
+        width: 150px !important;
+      
+    }
+    .projectWrapper img{
+        width: 345px !important;
+        height: 300px !important;
+    }
+    .pojectimage{
+        margin: 0 !important;
+    }
+    .project_right{
+        margin: 0 !important;
+        margin-top: 30px !important;
+        align-items: center !important;
+        text-align: center;
+    }
+    .project_right h1{
+        font-size: 30px !important;
+    }
+    .project_right p{
+        font-size: 13px !important;
+        width: 90vw !important;
+        margin: 10px 0px 9px 0px !important;
+    }
+    .tech{
+        flex-direction: column;
+        align-items: center;
+    }
+    .tech p{
+        margin: 0 !important;
+        margin-top: 10px !important;
+    }
+    .Links{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .Links a{
+        margin: 0 !important;
+    }
+    .Links a p{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+@media (768px <= width <= 991px) {
+    .projectTitle{
+        margin: 0 !important;
+        margin-top: 70px !important;
+    }
+    .projectbgtext{
+        transform: translateX(-50%) !important;
+    }
+    .projectWrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pojectimage{
+        margin: 0 !important;
+    }
+    .project_right{
+        margin: 0 !important;
+        margin-top: 30px !important;
+        align-items: center !important;
+        text-align: center;
+    }
+    .tech{
+        flex-direction: column;
+        align-items: center;
+    }
+    .tech p{
+        margin: 0 !important;
+        margin-top: 10px !important;
+    }
+  }
+
 .project_container .projectbgtext{
     position: absolute;
     top: -20px;
@@ -84,7 +174,12 @@ z-index: 2;
     margin: 0;
     margin-left: 20px;
 }
-.githubLink{
+.Links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.iconLink{
     display: flex;
     align-items: center;
     margin: 0;
@@ -92,25 +187,30 @@ z-index: 2;
     width: fit-content;
     padding: 8px 15px;
     border-radius: 5px;
-    border: 1px solid #001a34;
-    background-color: #001a34;
+    border: 1px solid var(--dark_btn_color);
+    background-color: var(--dark_btn_color);
     transition: all .2s ease-in-out;
 }
-.githubLink:hover{
-    background-color: #0d3053;
-    border-color: #3e6892 ;
-   
+.iconLink:hover{
+    background-color: var(--normal_btn_color);
+    border-color: var(--light_btn_color) ;
 }
-.githubLink:hover>.icon+p{
-    color: #8fc7ff;
+.iconLink:hover>.icon,.iconLink:hover>.icon+p{
+    color: var(--light_btn_text_color);
 }
-.githubLink .icon{
+.iconLink .icon{
     font-size: 30px;
     color: #c7e3ff;
     margin-right: 10px;
     transition: all .2s ease-in-out;
 }
-.githubLink p{
+.iconLink .backIcon{
+    margin: 0;
+}
+.iconLink .backIcon+p{
+    padding-right: 11px;
+}
+.iconLink p{
     margin: 0;
     font-size: 17px;
     font-family:'Coolvetica';

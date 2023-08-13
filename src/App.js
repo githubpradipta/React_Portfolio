@@ -5,6 +5,7 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Project from './Components/Project/Project';
 import Oneproject from './Components/Oneproject/Oneproject';
+import Contact from './Components/Contact/Contact';
 import { useState } from 'react';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Route path='/about' element={<About/>}/>
       <Route path='/projects' element={<Project projectHandler={projectHandler}/>}/>
       <Route path='/project/:projectID' element={<Oneproject/>}/>
+      <Route path='/contact' element={<Contact/>}/>
     </Routes>
     </>
     

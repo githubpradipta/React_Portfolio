@@ -3,11 +3,18 @@ const projectModel=require("../Model/Projectmodel")
 
 // Returns all the porject records
 const getAllProjects = async(req,res)=>{
-    const projectRecords = await projectModel.find();
-    if(projectRecords.length==0) 
-    res.json({message:"No projects are there"})
-    else
-    res.json(projectRecords);
+    try{
+        const projectRecords = await projectModel.find();
+        if(projectRecords.length==0) 
+        res.status(200).json({message:"No projects are there"})
+        else
+        res.status(200).json(projectRecords);
+    }
+    catch(err){
+        return res.status(400).json({
+            error:err.name
+        })
+    }
 }
 
 // Return the project on the basis of given id

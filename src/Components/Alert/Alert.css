@@ -1,0 +1,54 @@
+.Alert{
+ width: 205px;
+ padding: 10px 0px;
+ margin-bottom: 30px;
+ display: flex;
+ border: 1px solid rgb(0, 255, 0);
+ border-radius: 3px;
+ align-items: center;
+ text-align: center;
+ color: rgb(133, 255, 133);
+ background-color: rgba(0, 255, 0, 0.235);
+}
+.simbol{
+    flex: 20%;
+    font-weight: 700;
+}
+.message{
+    flex: 80%;
+    text-align: start;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: "Coolvetica";
+    padding-right: 10px;
+}
+#hide{
+    display: none;
+}
+#show{
+    display: inline-flex;
+    animation: fadeIn 0.5s, fadeOut 0.5s 2.6s;
+}
+.simbol .successIcon{
+    font-size: 20px;
+}
+ @keyframes fadeIn{
+    from{
+        opacity: 0;
+        bottom: 0;
+    }
+    to{
+        opacity: 1;
+        bottom: 30px;
+    }
+ }
+
+ @keyframes fadeOut{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+ }
