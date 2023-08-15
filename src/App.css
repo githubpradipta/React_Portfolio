@@ -1,0 +1,38 @@
+:root{
+  --navbgColor:#181818;
+  --textColor:rgb(220, 220, 220);
+  --hoverColor:rgb(216, 209, 0);
+  --maingbColor:#022c43;
+  --lightmainColor:#00486e;
+  --placeholderColor:#4d94bb;
+  --dark_btn_color:#001a34;
+  --normal_btn_color:#0d3053;
+  --light_btn_color:#3e6892;
+  --light_btn_text_color:#8fc7ff;
+}
+
+/* @import 'animate.css'; */
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
+}
+
+input,textarea{
+  font-family: 'Helvetica Neue';
+}
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+.layout{
+    height: 100vh;
+    position: absolute;
+}
+.h1{
+    color: #fff;
+    font-size: larger;
+}

@@ -1,0 +1,92 @@
+[
+    {
+        "title":"Notefy",
+        "shortDesc":"A full-stack notes sharing website",
+        "Desc":"Notefy is a web application for students, helps to sharing notes among the peers. In Notefy we can upload our notes and anyone registered in this application can download the notes. It helps studen to make connections as well as to help other students by uploading their own notes.",
+        "tech":["HTML","CSS","javaScript","Node.js","MongoDB"],
+        "githubLink":"https://github.com/githubpradipta/Notefy",
+        "imgLink":"https://thumbs.dreamstime.com/b/web-design-programming-development-flat-style-modern-vector-illustration-concept-icons-set-page-coding-website-38747303.jpg"
+    },
+    {
+        "title":"TaskTrackr",
+        "shortDesc":"A web application for tracking your day to day work",
+        "Desc":"TaskTrackr is a Todo web application designed to revolutionize the way you manage your tasks and boost your productivity. With its sleek interface and robust features, TaskTrackr is the ultimate tool for individuals looking to stay organized and accomplish their goals efficiently",
+        "tech":["React.js","JavaScript"],
+        "githubLink":"https://github.com/githubpradipta/TaskTrackr",
+        "imgLink":"https://static.vecteezy.com/system/resources/previews/000/396/669/original/illustration-of-to-do-list-vector.jpg"
+    },
+    {
+        "title":"CloudCast",
+        "shortDesc":"A Weather forecasting web application",
+        "Desc":"Clude-Cast is a web application that brings you accurate and up-to-date weather forecasts right at your fingertips. With its intuitive interface and comprehensive features, you can easily have to know about the tempereture of any place in the world.",
+        "tech":["HTML","CSS","JavaScript","Rest APIs"],
+        "githubLink":"https://github.com/githubpradipta/Cloud-Cast",
+        "imgLink":"http://static.vecteezy.com/system/resources/previews/000/098/703/original/vector-weather-icon-set.jpg"
+    },
+    {
+        "title":"CloudCast",
+        "shortDesc":"A Weather forecasting web application",
+        "Desc":"Clude-Cast is a web application that brings you accurate and up-to-date weather forecasts right at your fingertips. With its intuitive interface and comprehensive features, you can easily have to know about the tempereture of any place in the world.",
+        "tech":["HTML","CSS","JavaScript","Rest APIs"],
+        "githubLink":"https://github.com/githubpradipta/Cloud-Cast",
+        "imgLink":"http://static.vecteezy.com/system/resources/previews/000/098/703/original/vector-weather-icon-set.jpg"
+    },
+    {
+        "title":"CloudCast",
+        "shortDesc":"A Weather forecasting web application",
+        "Desc":"Clude-Cast is a web application that brings you accurate and up-to-date weather forecasts right at your fingertips. With its intuitive interface and comprehensive features, you can easily have to know about the tempereture of any place in the world.",
+        "tech":["HTML","CSS","JavaScript","Rest APIs"],
+        "githubLink":"https://github.com/githubpradipta/Cloud-Cast",
+        "imgLink":"http://static.vecteezy.com/system/resources/previews/000/098/703/original/vector-weather-icon-set.jpg"
+    },
+    {
+        "title":"CloudCast",
+        "shortDesc":"A Weather forecasting web application",
+        "Desc":"Clude-Cast is a web application that brings you accurate and up-to-date weather forecasts right at your fingertips. With its intuitive interface and comprehensive features, you can easily have to know about the tempereture of any place in the world.",
+        "tech":["HTML","CSS","JavaScript","Rest APIs"],
+        "githubLink":"https://github.com/githubpradipta/Cloud-Cast",
+        "imgLink":"http://static.vecteezy.com/system/resources/previews/000/098/703/original/vector-weather-icon-set.jpg"
+    },
+    {
+        "title":"CloudCast",
+        "shortDesc":"A Weather forecasting web application",
+        "Desc":"Clude-Cast is a web application that brings you accurate and up-to-date weather forecasts right at your fingertips. With its intuitive interface and comprehensive features, you can easily have to know about the tempereture of any place in the world.",
+        "tech":["HTML","CSS","JavaScript","Rest APIs"],
+        "githubLink":"https://github.com/githubpradipta/Cloud-Cast",
+        "imgLink":"http://static.vecteezy.com/system/resources/previews/000/098/703/original/vector-weather-icon-set.jpg"
+    },
+    {
+        "title":"CloudCast",
+        "shortDesc":"A Weather forecasting web application",
+        "Desc":"Clude-Cast is a web application that brings you accurate and up-to-date weather forecasts right at your fingertips. With its intuitive interface and comprehensive features, you can easily have to know about the tempereture of any place in the world.",
+        "tech":["HTML","CSS","JavaScript","Rest APIs"],
+        "githubLink":"https://github.com/githubpradipta/Cloud-Cast",
+        "imgLink":"http://static.vecteezy.com/system/resources/previews/000/098/703/original/vector-weather-icon-set.jpg"
+    },
+    {
+        "title":"CloudCast",
+        "shortDesc":"A Weather forecasting web application",
+        "Desc":"Clude-Cast is a web application that brings you accurate and up-to-date weather forecasts right at your fingertips. With its intuitive interface and comprehensive features, you can easily have to know about the tempereture of any place in the world.",
+        "tech":["HTML","CSS","JavaScript","Rest APIs"],
+        "githubLink":"https://github.com/githubpradipta/Cloud-Cast",
+        "imgLink":"http://static.vecteezy.com/system/resources/previews/000/098/703/original/vector-weather-icon-set.jpg"
+    },
+    {
+        "title":"CloudCast",
+        "shortDesc":"A Weather forecasting web application",
+        "Desc":"Clude-Cast is a web application that brings you accurate and up-to-date weather forecasts right at your fingertips. With its intuitive interface and comprehensive features, you can easily have to know about the tempereture of any place in the world.",
+        "tech":["HTML","CSS","JavaScript","Rest APIs"],
+        "githubLink":"https://github.com/githubpradipta/Cloud-Cast",
+        "imgLink":"http://static.vecteezy.com/system/resources/previews/000/098/703/original/vector-weather-icon-set.jpg"
+    },
+    {
+        "title":"CloudCast",
+        "shortDesc":"A Weather forecasting web application",
+        "Desc":"Clude-Cast is a web application that brings you accurate and up-to-date weather forecasts right at your fingertips. With its intuitive interface and comprehensive features, you can easily have to know about the tempereture of any place in the world.",
+        "tech":["HTML","CSS","JavaScript","Rest APIs"],
+        "githubLink":"https://github.com/githubpradipta/Cloud-Cast",
+        "imgLink":"http://static.vecteezy.com/system/resources/previews/000/098/703/original/vector-weather-icon-set.jpg"
+    }
+    
+    
+]
