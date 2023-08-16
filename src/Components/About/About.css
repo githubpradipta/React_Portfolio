@@ -21,8 +21,9 @@
     }
     .innerContainer .image img{
         margin: 0 !important;
-        width: 300px !important;
-        height: 350px !important;
+        margin-top: 55px !important;
+        width: 360px !important;
+        height: 240px !important;
         object-fit: cover;
         transition: all .2s ease;
     }
@@ -63,12 +64,14 @@
     }
     .text_field h1{
         font-size: 50px !important;
+        margin-top: 13px !important;
     }
     .text_field p{
         padding: 0px 60px !important;
     }
     .links{
         justify-content: center !important;
+        margin-top: 0 !important;
     }
     .links a p{
         padding: 0 !important;
@@ -84,9 +87,6 @@
     .instruction_text{
         display: none !important;
     } 
-    .text_field h1{
-        margin-top: 35px !important;
-    }
 }
 @media (768px <= width <= 991px){
     .innerContainer{
@@ -105,8 +105,8 @@
     }
     .innerContainer .image img{
         margin: 0 !important;
-        width: 500px !important;
-        height: 300px !important;
+        width: 650px !important;
+        height: 450px !important;
         object-fit: cover;
     }
     .image .instruction_text{
@@ -252,12 +252,12 @@
     align-items: center;
 }
 .innerContainer .image img{
-    width: 300px;
+    width: 380px;
     margin-left: 60px;
     margin-top: 80px;
     border-radius: 10px;
     opacity: 1;
-    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.596);
+    box-shadow: 4px 25px 57px rgba(0, 0, 0, 0.396);
     transition: all 0.3s ease;
 }
 .innerContainer .image img:hover{
