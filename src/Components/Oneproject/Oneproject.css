@@ -4,7 +4,8 @@
 @media (315px <= width <= 767px){
     .projectTitle{
         margin: 0 !important;
-        margin-top: 70px !important;
+        margin-top: 43px !important;
+        margin-bottom: 15px !important;
     }
     .projectbgtext{
         transform: translateX(-50%) !important;
@@ -20,19 +21,20 @@
     }
     .projectWrapper img{
         width: 345px !important;
-        height: 300px !important;
+        height: 280px !important;
     }
     .pojectimage{
         margin: 0 !important;
     }
     .project_right{
         margin: 0 !important;
-        margin-top: 30px !important;
         align-items: center !important;
         text-align: center;
     }
     .project_right h1{
         font-size: 30px !important;
+        margin-bottom: 0 !important;
+        margin-top: 15px !important;
     }
     .project_right p{
         font-size: 13px !important;
@@ -48,8 +50,8 @@
         margin-top: 10px !important;
     }
     .Links{
-        flex-direction: column;
         margin-top: 20px;
+        margin-bottom: 20px;
     }
     .Links a{
         margin: 0 !important;

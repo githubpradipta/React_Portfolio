@@ -17,7 +17,7 @@ function App() {
     <>
     <Layout/>
     <Routes>
-      <Route path='/React_Portfolio' element={<Home/>}/>
+      <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/projects' element={<Project projectHandler={projectHandler}/>}/>
       <Route path='/project/:projectID' element={<Oneproject/>}/>
