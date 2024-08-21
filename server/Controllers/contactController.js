@@ -1,5 +1,3 @@
-
-
 const nodemailer = require("nodemailer");
 
 
@@ -10,7 +8,7 @@ const contactHandller = async (req,res)=>{
             service:'gmail',
             auth: {
               user: 'pro082003@gmail.com',
-              pass: 'qwqchxhtxvwiweec'
+              pass: process.env.GMAIL_APP_PASSWORD,
             }
           });
         

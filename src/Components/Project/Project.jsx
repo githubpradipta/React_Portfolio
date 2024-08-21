@@ -5,6 +5,7 @@ import TrendingFlatIcon from '@mui/icons-material/TrendingFlat';
 import HashLoader from "react-spinners/HashLoader";
 // import example from '../../example.json';
 import axios from 'axios'
+
 export default function Project(props) {
   const [loading, setLoading] = useState(true);
   const [projects, setProjects] = useState([{}]);

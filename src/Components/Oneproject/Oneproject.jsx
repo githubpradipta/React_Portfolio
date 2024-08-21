@@ -52,7 +52,7 @@ export default function Oneproject() {
                             {
                                 projectDetails.tech.map((technology, i) => {
                                     return (
-                                        <span key={i}>{technology} </span>
+                                        <span className='techBox' key={i}>{technology} </span>
                                     )
                                 })
                             }

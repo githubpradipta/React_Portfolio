@@ -45,7 +45,11 @@
         flex-direction: column;
         align-items: center;
     }
+    .tech .techBox{
+        display: inline-block;
+    }
     .tech p{
+        display: block !important;
         margin: 0 !important;
         margin-top: 10px !important;
     }
@@ -156,7 +160,17 @@ z-index: 2;
 }
 .tech{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.tech .techBox{
+    padding: 4px 6px;
+    margin: 6px 4px;
+    border-radius: 3px;
+    background-color: rgb(159, 223, 255);
+    background-color: var(--normal_btn_color);
+    border: 1px solid  var(--light_btn_color) ;
+    color: var(--light_btn_text_color);
 }
 .project_right .tech h2{
     font-size: 20px;
@@ -170,11 +184,11 @@ z-index: 2;
 .tech p{
     font-size: 13px;
     font-weight: 500;
+    display: flex;
     letter-spacing: 1px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
-    color: #d8d8d8;
-    margin: 0;
-    margin-left: 20px;
+    color: #000000;
+    margin-top: 13px;
 }
 .Links{
     display: flex;

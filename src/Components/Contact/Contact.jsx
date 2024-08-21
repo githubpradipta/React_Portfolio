@@ -11,6 +11,7 @@ function Contact() {
     const [formData,setFormData] = useState({firstname:'', lastname:'', email:'', message:''});
     const [formErrors,setformErrors] = useState({});
     const [isSubmit,setIssubmit] = useState(false);
+    const [sending,setSending] = useState(false);
     const alertRef = useRef(null);
     const inputRef = useRef([]);
 
@@ -26,18 +27,20 @@ function Contact() {
         event.preventDefault();
         setIssubmit(true);
         setformErrors(validate(formData))
-    
     }
     useEffect(()=>{
         if (Object.keys(formErrors).length===0 && isSubmit) {
+            setSending(true);
             axios.post('/api/v1/contact/',formData)
             .then(res=>{
+                setSending(false);
                 console.log(res.data.message);
                 alertRef.current.showalert();
                 setFormData({firstname:'', lastname:'', email:'', message:''})
             })
             .catch(er=>{
-                alert("Internal server error")
+                console.log(er);
+                alert("Internal server error");
             })
         }
     },[formErrors])
@@ -86,6 +89,7 @@ function Contact() {
         <h1 className="heading_about">Contact <span>Me</span></h1>
         <main>
             <div className="contact_left">
+            {sending ?<div className="sending">Sending ...</div> : ''}
             <Alert ref={alertRef} type="success" message={"Successfully submitted"} />
                 <form action="">
                     <div className="name">

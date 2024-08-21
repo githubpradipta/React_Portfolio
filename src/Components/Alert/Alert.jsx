@@ -24,4 +24,4 @@ const Alert = forwardRef((props,ref)=> {
   )
 })
 
-export default Alert
+export default Alert;

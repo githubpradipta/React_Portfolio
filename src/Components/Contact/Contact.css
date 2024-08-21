@@ -7,6 +7,9 @@
     --placeholderColor:#4d94bb;
 }
 @media (360px <= width <= 767px){
+    .sending{
+        font-size: 15px !important;
+    }
     .bgtextcontact{
         transform: translateX(-50%) !important;
         top: 76px !important;
@@ -25,7 +28,7 @@
     }
     main .contact_right{
         margin: 0 !important;
-        margin-bottom: 20px !important ;
+        margin-bottom: 8px !important ;
     }
     form{
         align-items: center !important;
@@ -55,6 +58,9 @@
     }
 }
 @media (768px <= width <= 991px) {
+    .sending{
+        font-size: 19px !important;
+    }
     .bgtextcontact{
         transform: translateX(-50%) !important;
     }
@@ -68,6 +74,7 @@
     }
     main .contact_right{
         margin-left: 0 !important;
+        margin-bottom: 10px !important;
     }
     main .contact_right img{
         width: 60em !important;
@@ -143,6 +150,13 @@
     flex-direction: column;
     align-items: center;
 }
+.sending{
+    font-size: 23px;
+    font-family:'Coolvetica';
+    font-weight: 500;
+    color: var(--textColor);
+    padding-bottom: 12px;
+}
 main{
     height: 100vh;
     display: flex;
@@ -151,7 +165,6 @@ main{
     z-index: 3;
     margin: 0px 0px 0px 70px;
 }
-
 form{
     display: flex;
     flex-direction: column;

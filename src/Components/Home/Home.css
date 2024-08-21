@@ -132,6 +132,24 @@
     .container{
         max-width: 100%;
     }
+    .contact-btn{
+        color: var(--customYellow);
+        border: 1px solid var(--customYellow);
+        border-radius: 6px;
+        padding: 12px 35px;
+        font-size: 13px;
+        font-weight: 500;
+        margin:0;
+        margin-right: 10px;
+        transition: all 0.2s ease-in-out;
+    }
+    .contact-btn:hover{
+        background-color: var(--customYellow);
+        color: black;
+        transform: scale(105%);
+        border-radius: 4px;
+        box-shadow: 2px 1px 50px 9px rgba(0, 0, 0,0.3);
+    }
  }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
@@ -212,9 +230,10 @@
 .contact-btn{
     color: var(--customYellow);
     border: 1px solid var(--customYellow);
-    border-radius: 4px;
+    border-radius: 6px;
     padding: 12px 35px;
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: 500;
     margin:0;
     margin-right: 10px;
     transition: all 0.2s ease-in-out;
@@ -222,7 +241,8 @@
 .contact-btn:hover{
     background-color: var(--customYellow);
     color: black;
-    padding: 12px 105px ;
+    transform: scale(105%) !important;
+    border-radius: 4px;
     box-shadow: 2px 1px 50px 9px rgba(0, 0, 0,0.3);
 }
 .filled:hover{
@@ -245,7 +265,7 @@
 .home_page .image img{
     width: 460px;
     height: 430px;
-    /* object-fit: cover; */
+    object-fit: cover;
     transition: all 0.2s ease;
 }
 /* .home_page .image .overlay{

@@ -3,7 +3,7 @@ import './About.css'
 import resume from '../../assets/pdfs/Resume.pdf'
 import { Link } from 'react-router-dom'
 import { Button } from '@mui/material';
-import aboutImage from '../../assets/images/about.jpg'
+import aboutImage from '../../assets/images/About.png'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -87,7 +87,8 @@ export default function About() {
 
                             <div className="text_field">
                                 <h1>About <span>Me</span></h1>
-                                <p><span>I'm Pradipta </span>3rd-year BE CSE student, passionate about creating web experiences. As a full-stack developer, I specialize in MERN-based projects, blending my expertise in MongoDB, Express, React, and Node.js. I thrive on challenges and constantly seek to learn new technologies to enhance my skills. Let's innovate and build the future together.</p>
+                                <p><span>I'm Pradipta </span>a dynamic and results-driven person with a strong background in full-stack web development using React.js, Node.js, Express.js, MongoDB, and SQL, as well as a strong command of C, C++, and Java. Eager to contribute to creative projects and advance technology solutions inside a forward-thinking tech organization by utilizing my technical talents
+                                and collaboration skills.</p>
                                 <div className="links">
                                     <Link to='https://github.com/githubpradipta' className='link' target='_blank'>
                                         <GitHubIcon className='githubicon icon' />
@@ -97,12 +98,12 @@ export default function About() {
                                         <LinkedInIcon className='linkedinicon icon' />
                                         <p>Linkedin</p>
                                     </Link>
-                                    <Link to='/' className='link'>
+                                    <Link to='https://www.facebook.com/pradipta.banerjeedeep' className='link' target='_blank'>
                                         <FacebookIcon className='facebookicon icon' target='_blank' />
                                         <p>Facebook</p>
                                     </Link>
                                 </div>
-                                <a href={resume} download="Pradipta's Resume" className='download_a'> <button className='download_btn'>Download Resume<DownloadIcon className='download_icon'/></button></a>     
+                                <a href={resume} download="Pradipta_Banerjee_Resume" className='download_a'> <button className='download_btn'>Download Resume<DownloadIcon className='download_icon'/></button></a>     
                                 <Button variant="contained" size='large' className='skill_btn iconLink' onClick={backdropOpen}
                                 >
                                     Show Skills
